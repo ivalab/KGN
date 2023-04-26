@@ -1,0 +1,13 @@
+logs/
+__pycache__/
+logs*/
+
+# temp files
+doodle*
+CodeRun_cyy.md
+
+# auto-generated files
+*.swp
+*.swo
+*.DS_Store
+*.pyc

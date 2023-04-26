@@ -1,0 +1,23 @@
+SAVE_PATH: "../data/ps_grasp"
+CARDINALITY:
+  scene_num: 100
+  test_percentage: 30
+TABLE:
+  size: 1
+  thickness: 0.04
+CAMERA:
+  intrinsic: "realsense"
+  camera_num: 5
+  radius_range: [0.8, 1.2]
+  latitude_range: [30, 90]
+OBJECT:
+  mode: "all"
+  cuboid_size_range: [0.02, 0.12]
+  sphere_radius_range: [0.02, 0.05] # same for the semi-sphere
+  cylinder_rin_range: [0.03, 0.07]
+  cylinder_h_range: [0.05, 0.1]
+  ring_rin_range: [0.014, 0.04]
+  ring_h_range: [0.008, 0.024]
+  stick_rin_range: [0.008, 0.015]
+  stick_h_range: [0.04, 0.01]
+

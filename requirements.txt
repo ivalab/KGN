@@ -1,0 +1,17 @@
+opencv-contrib-python===4.5.5.64
+Cython
+numba
+progress
+matplotlib
+easydict
+scipy
+pyrr
+tqdm
+pyyaml
+shapely
+pyglet==1.5.22      # 2.0.1 will cause error - 'SceneViewer' object has no attribute 'ubo'
+trimesh===3.10.3
+python-fcl
+pyrender
+pyassimp
+OpenEXR
