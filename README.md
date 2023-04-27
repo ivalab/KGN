@@ -6,7 +6,7 @@ Code release for our paper [Keypoint-GraspNet: Keypoint-based 6-DoF Grasp Genera
 
 ## Installation
 
-Please follow [INSTALL.md](INSTALL.md) to prepare for the environment.
+Please follow [INSTALL.md](docs/INSTALL.md) to prepare for the environment.
 
 
 

@@ -57,61 +57,9 @@ After install Anaconda:
     python setup.py install --user
     ~~~
     
-6. [Optional, only required if you are using extremenet or multi-scale testing] Compile NMS if your want to use multi-scale testing or test ExtremeNet.
+6. [Optional, only required if you are using extremenet or multi-scale testing] Compile NMS.
 
     ~~~
-    cd $CenterNet_ROOT/src/lib/external
+    cd ./src/lib/external
     make
     ~~~
-
-
-
-
-# Install for the GPG
-
-Modified and simplified from the [PointNetGPD](https://github.com/lianghongzhuo/PointNetGPD#install-all-the-requirements-using-a-virtual-environment-is-recommended). The original installation method of the ```python-pcl``` can not work, so here the package is installed system-wise, and a separate virtual environment is created to inherit the package (step 1). On the Ubuntu 20.04, the default python version is 3.8.
-
-1. Install `pcl-tools` 
-
-   ```bash
-   sudo apt install libpcl-dev
-   sudo apt install python3-pcl
-   python3 -m venv pnGPD --system-site-packages
-   ```
-
-1. Create a virtual environment and inherit the system site packages:
-
-   ```bash
-   python3 -m venv pnGPD --system-site-packages
-   source pnGPG/bin/activate
-   ```
-
-1. `pip install mayavi`
-
-1. Install PyTorch: https://pytorch.org/get-started/locally/
-
-   ```bash
-   pip install torch==1.4.0 torchvision==0.5.0
-   ```
-
-1. Install the PointNetGPD requirements in `requirements_pnGPD.txt`
-
-   ```bash
-   cd $PointNetGPD_FOLDER
-   pip install -r requirements_pnGPD.txt
-   ```
-
-1. Install the PointNetGPD modified meshpy (Modify from [Berkeley Automation Lab: meshpy](https://github.com/BerkeleyAutomation/meshpy))
-
-   ```bash
-   cd $PointNetGPD_FOLDER/meshpy
-   python setup.py develop
-   ```
-
-1. Install the PointNetGPD modified dex-net (Modify from [Berkeley Automation Lab: dex-net](https://github.com/BerkeleyAutomation/dex-net))
-
-   ```bash
-   cd $PointNetGPD_FOLDER/dex-net
-   python setup.py develop
-   ```
-

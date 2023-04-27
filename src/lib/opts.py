@@ -263,7 +263,7 @@ class opts(object):
         # the PnP algorithms
         self.parser.add_argument('--pnp_type', type=str, default="planar",
                                  choices=["cvEPnP", "cvP3P",
-                                          "cvIPPE", "planar"],
+                                          "cvIPPE"],
                                  help="The PnP algorithm to use.")
         # grasp pose evaluation
         self.parser.add_argument('--angle_th', type=float, default=45,
