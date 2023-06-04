@@ -119,5 +119,5 @@ ENV/
 
 
 data/
-models/
+pretrained_weights/
 exp/

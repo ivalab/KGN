@@ -12,7 +12,7 @@ python main.py grasp_pose \
     --ps_data_mode ${TRAIN_DATA_MODE} \
     --batch_size 12 \
     --lr 1.25e-4 \
-    --load_model ../models/ctdet_coco_dla_2x.pth \
+    --load_model ../pretrained_weights/ctdet_coco_dla_2x.pth \
     --gpus 0 \
     --num_workers 4 \
     --num_epochs 400 \

@@ -52,7 +52,7 @@ python main_data_generate.py --config_file lib/data_generation/ps_grasp_multi.ya
 
 ### Train
 
-First download pretrained [ctdet_coco_dla_2x](https://github.com/xingyizhou/CenterNet) model following the instruction. Put it under ``./models/``  folder.
+First download pretrained [ctdet_coco_dla_2x](https://github.com/xingyizhou/CenterNet) model following the instruction. Put it under ``./pretrained_weights/``  folder.
 
 Then run the training code.
 
