@@ -1,6 +1,6 @@
 # Keypoint-GraspNet (KGN)
 
-Code release for our paper [Keypoint-GraspNet: Keypoint-based 6-DoF Grasp Generation from the Monocular RGB-D input](https://arxiv.org/abs/2209.08752) and [KGNv2: Separating Scale and Pose Prediction for Keypoint-based 6-DoF Grasp Synthesis on RGB-D input](https://arxiv.org/abs/2303.05617).
+Code release for our papers: ICRA'23 [Keypoint-GraspNet: Keypoint-based 6-DoF Grasp Generation from the Monocular RGB-D input](https://arxiv.org/abs/2209.08752) and IROS'23 [KGNv2: Separating Scale and Pose Prediction for Keypoint-based 6-DoF Grasp Synthesis on RGB-D input](https://arxiv.org/abs/2303.05617).
 
 
 
@@ -98,7 +98,7 @@ Please consider citing our work if you find the code helpful:
 @article{chen2023kgnv2,
   title={KGNv2: Separating Scale and Pose Prediction for Keypoint-based 6-DoF Grasp Synthesis on RGB-D input},
   author={Chen, Yiye and Xu, Ruinian and Lin, Yunzhi and Chen, Hongyi and Vela, Patricio A},
-  journal={arXiv preprint arXiv:2303.05617},
+  journal={IEEE International Conference on Intelligent Robots and Systems (IROS)},
   year={2023}
 }
 ```
