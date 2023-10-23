@@ -533,7 +533,7 @@ class PSGrasp(data.Dataset):
 
                 if scale_kpts:
                     # get scale
-                    scale = grasp_scales_this[i]
+                    scale = grasp_scales_this[j]
                     # proj width
                     proj_width = scale * grasp_width * scale_coeff_k
 
